@@ -1,0 +1,942 @@
+{
+  "initialBalance": 7500000,
+  "isDemoMode": true,
+  "lastUpdated": "2026-10-27T15:14:25.968Z",
+  "transactions": [
+    {
+      "id": "trx-1",
+      "code": "TRX-202610-001",
+      "date": "2026-10-02",
+      "type": "pemasukan",
+      "category": "iuran",
+      "amount": 1450000,
+      "description": "[DEMO] Penerimaan Iuran Rutin Pemuda Bulan Oktober (29 Anggota)",
+      "sourceOrRecipient": "Bendahara Divisi Kaderisasi",
+      "proofInfo": "Buku Kas Iuran & Kwitansi No. 10/KT/X/2026",
+      "createdBy": "Siti Rahma (Bendahara)",
+      "updatedAt": "2026-10-02T10:30:00Z"
+    },
+    {
+      "id": "trx-2",
+      "code": "TRX-202610-002",
+      "date": "2026-10-05",
+      "type": "pengeluaran",
+      "category": "konsumsi",
+      "amount": 450000,
+      "description": "[DEMO] Konsumsi Rapat Kerja Bulanan Karang Taruna di Balai RW 02",
+      "sourceOrRecipient": "Katering Berkah Bu Warsiti",
+      "proofInfo": "Nota Resmi No. 883/KW/2026",
+      "createdBy": "Siti Rahma (Bendahara)",
+      "updatedAt": "2026-10-05T19:45:00Z"
+    },
+    {
+      "id": "trx-3",
+      "code": "TRX-202610-003",
+      "date": "2026-10-10",
+      "type": "pemasukan",
+      "category": "bantuan",
+      "amount": 3500000,
+      "description": "[DEMO] Bantuan Dana Pembinaan Pemuda dari APBDes Tahap II",
+      "sourceOrRecipient": "Pemerintah Desa Sukamaju",
+      "proofInfo": "Surat Keputusan Kades & Bukti Transfer Bank BPD",
+      "createdBy": "Siti Rahma (Bendahara)",
+      "updatedAt": "2026-10-10T14:15:00Z"
+    },
+    {
+      "id": "trx-4",
+      "code": "TRX-202610-004",
+      "date": "2026-10-12",
+      "type": "pengeluaran",
+      "category": "perlengkapan",
+      "amount": 1200000,
+      "description": "[DEMO] Pengadaan 2 Unit Tenda Lipat 3x3m untuk Inventaris Dusun",
+      "sourceOrRecipient": "Toko Tenda Terpal Makmur",
+      "proofInfo": "Faktur Pembelian No. TT-9021",
+      "createdBy": "Siti Rahma (Bendahara)",
+      "updatedAt": "2026-10-12T11:20:00Z"
+    },
+    {
+      "id": "trx-5",
+      "code": "TRX-202610-005",
+      "date": "2026-10-18",
+      "type": "pengeluaran",
+      "category": "kebersihan",
+      "amount": 320000,
+      "description": "[DEMO] Alat & Kantong Sampah Kerja Bakti Saluran Irigasi Pemuda",
+      "sourceOrRecipient": "TB. Subur Makmur",
+      "proofInfo": "Struk Belanja Kasir 18/10/2026",
+      "createdBy": "Siti Rahma (Bendahara)",
+      "updatedAt": "2026-10-18T08:00:00Z"
+    },
+    {
+      "id": "trx-6",
+      "code": "TRX-202610-006",
+      "date": "2026-10-22",
+      "type": "pemasukan",
+      "category": "sponsor",
+      "amount": 2000000,
+      "description": "[DEMO] Sponsorship Turnamen Futsal Antar-RW dari Toko Olahraga Juara",
+      "sourceOrRecipient": "Toko Olahraga Juara Jaya",
+      "proofInfo": "MoU Sponsor & Bukti Transfer BNI",
+      "createdBy": "Siti Rahma (Bendahara)",
+      "updatedAt": "2026-10-22T16:00:00Z"
+    },
+    {
+      "id": "trx-7",
+      "code": "TRX-202609-001",
+      "date": "2026-09-15",
+      "type": "pemasukan",
+      "category": "donasi",
+      "amount": 1000000,
+      "description": "[DEMO] Donasi Pengembangan Literasi Balai Baca Pemuda",
+      "sourceOrRecipient": "Alumni Karang Taruna (Pak Darsono)",
+      "proofInfo": "Kwitansi No. 04/ALM/IX/2026",
+      "createdBy": "Siti Rahma (Bendahara)",
+      "updatedAt": "2026-09-15T13:00:00Z"
+    },
+    {
+      "id": "trx-8",
+      "code": "TRX-202609-002",
+      "date": "2026-09-20",
+      "type": "pengeluaran",
+      "category": "sosial",
+      "amount": 600000,
+      "description": "[DEMO] Santunan dan Bingkisan Warga Lansia Pra-Sejahtera",
+      "sourceOrRecipient": "Keluarga Binaan RW 03",
+      "proofInfo": "Berita Acara Penyerahan & Dokumentasi",
+      "createdBy": "Siti Rahma (Bendahara)",
+      "updatedAt": "2026-09-20T17:30:00Z"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "c-1",
+      "memberId": "pmd-1",
+      "memberName": "Rian Pratama",
+      "month": "2026-10",
+      "amount": 50000,
+      "status": "lunas",
+      "paidAt": "2026-10-02",
+      "receiptRef": "KW-01"
+    },
+    {
+      "id": "c-2",
+      "memberId": "pmd-2",
+      "memberName": "Dewi Lestari",
+      "month": "2026-10",
+      "amount": 50000,
+      "status": "lunas",
+      "paidAt": "2026-10-02",
+      "receiptRef": "KW-02"
+    },
+    {
+      "id": "c-3",
+      "memberId": "pmd-3",
+      "memberName": "Bagus Wicaksono",
+      "month": "2026-10",
+      "amount": 50000,
+      "status": "lunas",
+      "paidAt": "2026-10-03",
+      "receiptRef": "KW-03"
+    },
+    {
+      "id": "c-4",
+      "memberId": "pmd-4",
+      "memberName": "Anisa Maharani",
+      "month": "2026-10",
+      "amount": 50000,
+      "status": "belum"
+    },
+    {
+      "id": "c-5",
+      "memberId": "pmd-5",
+      "memberName": "Fajar Nugroho",
+      "month": "2026-10",
+      "amount": 50000,
+      "status": "lunas",
+      "paidAt": "2026-10-04",
+      "receiptRef": "KW-05"
+    },
+    {
+      "id": "c-6",
+      "memberId": "pmd-6",
+      "memberName": "Rizky Maulana",
+      "month": "2026-10",
+      "amount": 50000,
+      "status": "belum"
+    },
+    {
+      "id": "c-7",
+      "memberId": "pmd-7",
+      "memberName": "Nurul Hidayati",
+      "month": "2026-10",
+      "amount": 50000,
+      "status": "lunas",
+      "paidAt": "2026-10-05",
+      "receiptRef": "KW-07"
+    },
+    {
+      "id": "c-8",
+      "memberId": "pmd-8",
+      "memberName": "Dimas Setiawan",
+      "month": "2026-10",
+      "amount": 50000,
+      "status": "belum"
+    }
+  ],
+  "families": [
+    {
+      "id": "kk-1",
+      "familyCode": "KK-SKM-0101",
+      "rawKK": "3201011204850001",
+      "maskedKK": "320101******0001",
+      "headOfFamily": "Suryadi Suwignyo",
+      "address": "Jl. Merak No. 14, Dusun Krajan",
+      "rt": "01",
+      "rw": "01",
+      "memberCount": 4,
+      "status": "Lengkap",
+      "updatedAt": "2026-10-15",
+      "phone": "0812-3456-7890",
+      "notes": "[DEMO] Terverifikasi oleh Ketua RT 01. Memiliki 1 anggota usia pemuda."
+    },
+    {
+      "id": "kk-2",
+      "familyCode": "KK-SKM-0102",
+      "rawKK": "3201012508820004",
+      "maskedKK": "320101******0004",
+      "headOfFamily": "Bambang Sudibyo",
+      "address": "Gang Salak 3, Dusun Krajan",
+      "rt": "01",
+      "rw": "01",
+      "memberCount": 5,
+      "status": "Lengkap",
+      "updatedAt": "2026-10-18",
+      "phone": "0857-9876-5432",
+      "notes": "[DEMO] Terdata lengkap. Usaha rumahan keripik pisang."
+    },
+    {
+      "id": "kk-3",
+      "familyCode": "KK-SKM-0201",
+      "rawKK": "3201021406890002",
+      "maskedKK": "320102******0002",
+      "headOfFamily": "Ahmad Faisal",
+      "address": "Jl. Balai Desa RT 02 RW 01",
+      "rt": "02",
+      "rw": "01",
+      "memberCount": 3,
+      "status": "Perlu Verifikasi",
+      "updatedAt": "2026-10-20",
+      "phone": "0813-2211-4433",
+      "notes": "[DEMO] Surat pindah domisili baru masuk, menunggu tanda tangan kadus."
+    },
+    {
+      "id": "kk-4",
+      "familyCode": "KK-SKM-0202",
+      "rawKK": "3201023011780009",
+      "maskedKK": "320102******0009",
+      "headOfFamily": "H. Slamet Riyadi",
+      "address": "Dusun Kebonromo No. 08",
+      "rt": "02",
+      "rw": "02",
+      "memberCount": 6,
+      "status": "Lengkap",
+      "updatedAt": "2026-10-10",
+      "phone": "0821-4455-6677",
+      "notes": "[DEMO] Data valid. Dua anak tergabung aktif di Karang Taruna."
+    },
+    {
+      "id": "kk-5",
+      "familyCode": "KK-SKM-0301",
+      "rawKK": "3201030502900003",
+      "maskedKK": "320103******0003",
+      "headOfFamily": "Joko Triyono",
+      "address": "Dusun Telagasari RT 03 RW 02",
+      "rt": "03",
+      "rw": "02",
+      "memberCount": 4,
+      "status": "Belum Lengkap",
+      "updatedAt": "2026-10-22",
+      "notes": "[DEMO] Belum menyerahkan salinan akta kelahiran anak kedua."
+    },
+    {
+      "id": "kk-6",
+      "familyCode": "KK-SKM-0302",
+      "rawKK": "3201031908860007",
+      "maskedKK": "320103******0007",
+      "headOfFamily": "Mulyadi Pratama",
+      "address": "Dusun Telagasari No. 25",
+      "rt": "03",
+      "rw": "02",
+      "memberCount": 4,
+      "status": "Lengkap",
+      "updatedAt": "2026-10-08",
+      "notes": "[DEMO] Data terverifikasi lengkap."
+    }
+  ],
+  "members": [
+    {
+      "id": "pmd-1",
+      "memberCode": "PMD-001",
+      "name": "Rian Pratama, S.Kom.",
+      "ageGroup": "18-24",
+      "age": 23,
+      "address": "Jl. Merak No. 14, Dusun Krajan",
+      "rt": "01",
+      "rw": "01",
+      "phone": "0812-9988-7766",
+      "roleInOrg": "Ketua Karang Taruna",
+      "skills": [
+        "Teknologi & Web",
+        "Manajemen Tim",
+        "Desain Grafis"
+      ],
+      "interests": [
+        "Digitalisasi Desa",
+        "Sepak Bola",
+        "Kewirausahaan"
+      ],
+      "joinDate": "2023-01-10",
+      "status": "Aktif"
+    },
+    {
+      "id": "pmd-2",
+      "memberCode": "PMD-002",
+      "name": "Dewi Lestari, S.Pd.",
+      "ageGroup": "18-24",
+      "age": 24,
+      "address": "Jl. Balai Desa No. 5",
+      "rt": "02",
+      "rw": "01",
+      "phone": "0813-1122-3344",
+      "roleInOrg": "Sekretaris Umum",
+      "skills": [
+        "Administrasi & Arsip",
+        "Public Speaking",
+        "Kepenulisan"
+      ],
+      "interests": [
+        "Literasi Anak",
+        "Kerajinan Tangan",
+        "Pelatihan"
+      ],
+      "joinDate": "2023-01-10",
+      "status": "Aktif"
+    },
+    {
+      "id": "pmd-3",
+      "memberCode": "PMD-003",
+      "name": "Bagus Wicaksono",
+      "ageGroup": "18-24",
+      "age": 22,
+      "address": "Dusun Kebonromo No. 08",
+      "rt": "02",
+      "rw": "02",
+      "phone": "0858-4455-6677",
+      "roleInOrg": "Koordinator Bidang Olahraga",
+      "skills": [
+        "Perwasitan",
+        "Pertanian Hidroponik",
+        "Pertukangan"
+      ],
+      "interests": [
+        "Voli",
+        "Badminton",
+        "Pertanian Modern"
+      ],
+      "joinDate": "2023-06-15",
+      "status": "Aktif"
+    },
+    {
+      "id": "pmd-4",
+      "memberCode": "PMD-004",
+      "name": "Anisa Maharani",
+      "ageGroup": "18-24",
+      "age": 21,
+      "address": "Dusun Krajan RT 01 RW 01",
+      "rt": "01",
+      "rw": "01",
+      "phone": "0877-3344-5566",
+      "roleInOrg": "Koordinator Bidang Ekonomi Kreatif",
+      "skills": [
+        "Digital Marketing",
+        "Fotografi Produk",
+        "Pastry & Bakery"
+      ],
+      "interests": [
+        "Bazar UMKM",
+        "Branding Produk Lokal",
+        "Pemberdayaan"
+      ],
+      "joinDate": "2023-08-20",
+      "status": "Aktif"
+    },
+    {
+      "id": "pmd-5",
+      "memberCode": "PMD-005",
+      "name": "Fajar Nugroho",
+      "ageGroup": "25-30",
+      "age": 27,
+      "address": "Dusun Telagasari RT 03 RW 02",
+      "rt": "03",
+      "rw": "02",
+      "phone": "0822-7788-9900",
+      "roleInOrg": "Koordinator Lingkungan Hidup & Kebersihan",
+      "skills": [
+        "Pengelolaan Bank Sampah",
+        "Mekanik Sepeda Motor",
+        "K3"
+      ],
+      "interests": [
+        "Komposting",
+        "Penghijauan Dusun",
+        "Otomotif"
+      ],
+      "joinDate": "2022-11-05",
+      "status": "Aktif"
+    },
+    {
+      "id": "pmd-6",
+      "memberCode": "PMD-006",
+      "name": "Rizky Maulana",
+      "ageGroup": "13-17",
+      "age": 16,
+      "address": "Gang Melati No. 2, Dusun Krajan",
+      "rt": "01",
+      "rw": "01",
+      "phone": "0896-1234-5678",
+      "roleInOrg": "Anggota Muda (Kader Remaja)",
+      "skills": [
+        "Videografi Ponsel",
+        "Seni Musik Akustik",
+        "Gaming"
+      ],
+      "interests": [
+        "E-Sports Positif",
+        "Dokumentasi Acara",
+        "PMR"
+      ],
+      "joinDate": "2024-02-01",
+      "status": "Aktif"
+    },
+    {
+      "id": "pmd-7",
+      "memberCode": "PMD-007",
+      "name": "Nurul Hidayati",
+      "ageGroup": "18-24",
+      "age": 20,
+      "address": "Dusun Telagasari RT 03 RW 02",
+      "rt": "03",
+      "rw": "02",
+      "phone": "0812-4433-2211",
+      "roleInOrg": "Koordinator Bidang Keagamaan & Sosial",
+      "skills": [
+        "Manajemen Pengajian Remaja",
+        "Bimbingan Belajar",
+        "Tata Boga"
+      ],
+      "interests": [
+        "Bakti Sosial",
+        "Taman Baca Al-Quran",
+        "Santunan Anak"
+      ],
+      "joinDate": "2023-03-12",
+      "status": "Aktif"
+    },
+    {
+      "id": "pmd-8",
+      "memberCode": "PMD-008",
+      "name": "Dimas Hendro, S.T.",
+      "ageGroup": "25-30",
+      "age": 29,
+      "address": "Dusun Kebonromo RT 02 RW 02",
+      "rt": "02",
+      "rw": "02",
+      "roleInOrg": "Dewan Penasehat Pemuda",
+      "skills": [
+        "Teknik Sipil",
+        "Penyusunan RAB",
+        "Negosiasi Sponsor"
+      ],
+      "interests": [
+        "Infrastruktur Desa",
+        "Pelatihan Karir"
+      ],
+      "joinDate": "2020-05-18",
+      "status": "Alumni"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "[DEMO] Turnamen Bola Voli Antar-RW Peringatan Sumpah Pemuda 2026",
+      "content": "Dalam rangka mempererat silaturahmi pemuda dan memeriahkan Hari Sumpah Pemuda, Karang Taruna akan menyelenggarakan turnamen bola voli antar-RW bertempat di Lapangan Serbaguna Balai Desa. Pendaftaran tim dibuka mulai 25 Oktober hingga 1 November 2026 melalui koordinator pemuda dusun masing-masing.",
+      "category": "kegiatan",
+      "publishedDate": "2026-10-24",
+      "author": "Rian Pratama (Ketua)",
+      "status": "dipublikasikan",
+      "attachmentName": "Brosur_Turnamen_Voli_2026.pdf",
+      "isPinned": true
+    },
+    {
+      "id": "ann-2",
+      "title": "[DEMO] Gotong Royong Revitalisasi Saluran Air & Taman Pos Ronda RW 02",
+      "content": "Dihimbau seluruh rekan pemuda RT 01 dan 02 Dusun Kebonromo untuk hadir dalam kegiatan kerja bakti pembersihan selokan dan perapihan taman pos ronda pada Minggu pagi pukul 07.00 WIB. Perlengkapan harap dibawa secukupnya.",
+      "category": "sosial",
+      "publishedDate": "2026-10-20",
+      "author": "Fajar Nugroho (Div. Lingkungan)",
+      "status": "dipublikasikan",
+      "attachmentName": "Denah_Lokasi_Kerja_Bakti.png",
+      "isPinned": false
+    },
+    {
+      "id": "ann-3",
+      "title": "[DEMO] Jadwal Pemutakhiran Data Mandiri Anggota Pemuda & KK Semester II",
+      "content": "Kepada seluruh pengurus RT/RW, form pemutakhiran data pemuda usia 13-30 tahun serta data keluarga baru dapat diisi langsung melalui portal Ruang Muda Desa. Akses verifikasi dibuka untuk seluruh sekretariat dusun.",
+      "category": "administrasi",
+      "publishedDate": "2026-10-15",
+      "author": "Dewi Lestari (Sekretaris)",
+      "status": "dipublikasikan",
+      "isPinned": false
+    },
+    {
+      "id": "ann-4",
+      "title": "[DEMO] Draf: Pelatihan Pemasaran Digital & Fotografi Produk UMKM Pemuda",
+      "content": "Draf persiapan workshop pemasaran marketplace bagi wirausaha muda desa. Rencana narasumber praktisi e-commerce dari kota kabupaten.",
+      "category": "kegiatan",
+      "publishedDate": "2026-10-26",
+      "author": "Anisa Maharani (Div. UMKM)",
+      "status": "draf",
+      "isPinned": false
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-1",
+      "title": "[DEMO] Rapat Pleno Koordinasi Sumpah Pemuda & Evaluasi Kas",
+      "date": "2026-10-29",
+      "time": "19:30 - 21:30 WIB",
+      "location": "Balai Warga RW 02 Desa Sukamaju",
+      "personInCharge": "Dewi Lestari (Sekretaris)",
+      "description": "Pembahasan persiapan teknis malam puncak pentas seni pemuda, pelaporan rekap kas tengah semester, dan finalisasi data absensi.",
+      "budget": 350000,
+      "status": "rencana",
+      "attendees": [
+        {
+          "memberId": "pmd-1",
+          "memberName": "Rian Pratama",
+          "status": "hadir",
+          "checkedAt": "2026-10-26T18:00:00Z"
+        },
+        {
+          "memberId": "pmd-2",
+          "memberName": "Dewi Lestari",
+          "status": "hadir",
+          "checkedAt": "2026-10-26T18:05:00Z"
+        },
+        {
+          "memberId": "pmd-3",
+          "memberName": "Bagus Wicaksono",
+          "status": "hadir",
+          "checkedAt": "2026-10-26T18:30:00Z"
+        },
+        {
+          "memberId": "pmd-4",
+          "memberName": "Anisa Maharani",
+          "status": "izin",
+          "notes": "Ada tugas dinas malam"
+        },
+        {
+          "memberId": "pmd-5",
+          "memberName": "Fajar Nugroho",
+          "status": "hadir",
+          "checkedAt": "2026-10-26T19:00:00Z"
+        },
+        {
+          "memberId": "pmd-6",
+          "memberName": "Rizky Maulana",
+          "status": "hadir",
+          "checkedAt": "2026-10-26T19:15:00Z"
+        },
+        {
+          "memberId": "pmd-7",
+          "memberName": "Nurul Hidayati",
+          "status": "hadir",
+          "checkedAt": "2026-10-26T19:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ev-2",
+      "title": "[DEMO] Kerja Bakti Bersih Desa & Penanaman 100 Bibit Pohon",
+      "date": "2026-11-02",
+      "time": "06:30 - 10:30 WIB",
+      "location": "Sepanjang Bantaran Sungai Kali Opak Dusun Krajan",
+      "personInCharge": "Fajar Nugroho (Div. Lingkungan)",
+      "description": "Aksi peduli lingkungan bersama warga dan relawan pemuda. Bibit pohon trembesi dan mahoni bantuan dinas kehutanan.",
+      "budget": 650000,
+      "status": "rencana",
+      "attendees": [
+        {
+          "memberId": "pmd-1",
+          "memberName": "Rian Pratama",
+          "status": "hadir"
+        },
+        {
+          "memberId": "pmd-3",
+          "memberName": "Bagus Wicaksono",
+          "status": "hadir"
+        },
+        {
+          "memberId": "pmd-5",
+          "memberName": "Fajar Nugroho",
+          "status": "hadir"
+        }
+      ]
+    },
+    {
+      "id": "ev-3",
+      "title": "[DEMO] Pelatihan Dasar Desain Canva & Pengelolaan Medsos Organisasi",
+      "date": "2026-10-14",
+      "time": "13:00 - 16:00 WIB",
+      "location": "Laboratorium Komputer MTs Sukamaju",
+      "personInCharge": "Rian Pratama (Ketua)",
+      "description": "Pelatihan media sosial positif untuk remaja dusun. Diikuti oleh 18 peserta remaja dan pengurus pemuda.",
+      "budget": 400000,
+      "status": "selesai",
+      "attendees": [
+        {
+          "memberId": "pmd-1",
+          "memberName": "Rian Pratama",
+          "status": "hadir",
+          "checkedAt": "2026-10-14T12:50:00Z"
+        },
+        {
+          "memberId": "pmd-2",
+          "memberName": "Dewi Lestari",
+          "status": "hadir",
+          "checkedAt": "2026-10-14T12:55:00Z"
+        },
+        {
+          "memberId": "pmd-4",
+          "memberName": "Anisa Maharani",
+          "status": "hadir",
+          "checkedAt": "2026-10-14T13:00:00Z"
+        },
+        {
+          "memberId": "pmd-6",
+          "memberName": "Rizky Maulana",
+          "status": "hadir",
+          "checkedAt": "2026-10-14T13:05:00Z"
+        },
+        {
+          "memberId": "pmd-7",
+          "memberName": "Nurul Hidayati",
+          "status": "hadir",
+          "checkedAt": "2026-10-14T13:02:00Z"
+        }
+      ]
+    }
+  ],
+  "workPrograms": [
+    {
+      "id": "pro-1",
+      "name": "[DEMO] Digitalisasi Administrasi Desa & Ruang Muda",
+      "division": "Divisi Teknologi Informasi",
+      "goal": "Membangun satu pintu data pemuda, data KK, keuangan kas transparan, dan arsip digital mandiri.",
+      "personInCharge": "Rian Pratama",
+      "schedule": "Agustus - November 2026",
+      "plannedBudget": 2500000,
+      "realizedBudget": 1850000,
+      "target": "100% data pemuda & 500 KK terdata secara digital dan transparan",
+      "progress": 78,
+      "status": "berjalan"
+    },
+    {
+      "id": "pro-2",
+      "name": "[DEMO] Bank Sampah Mandiri & Daur Ulang Pemuda",
+      "division": "Divisi Lingkungan Hidup",
+      "goal": "Mengedukasi pemilahan sampah dari rumah dan menciptakan kas tambahan melalui daur ulang plastik.",
+      "personInCharge": "Fajar Nugroho",
+      "schedule": "Sepanjang Tahun 2026",
+      "plannedBudget": 1800000,
+      "realizedBudget": 950000,
+      "target": "5 titik penimbangan sampah aktif di 3 RW",
+      "progress": 60,
+      "status": "berjalan"
+    },
+    {
+      "id": "pro-3",
+      "name": "[DEMO] Turnamen Olahraga & Pesta Rakyat Sumpah Pemuda",
+      "division": "Divisi Olahraga & Seni",
+      "goal": "Menjaring bibit atlet muda voli & futsal sekaligus mempererat persatuan pemuda lintas dusun.",
+      "personInCharge": "Bagus Wicaksono",
+      "schedule": "Oktober - November 2026",
+      "plannedBudget": 4500000,
+      "realizedBudget": 2000000,
+      "target": "16 tim voli dan 12 tim futsal berpartisipasi",
+      "progress": 45,
+      "status": "berjalan"
+    },
+    {
+      "id": "pro-4",
+      "name": "[DEMO] Pendampingan Sertifikasi Halal & NIB UMKM Pemuda",
+      "division": "Divisi Ekonomi Kreatif",
+      "goal": "Membantu wirausaha muda mendapatkan legalitas resmi dan pemasaran digital.",
+      "personInCharge": "Anisa Maharani",
+      "schedule": "November - Desember 2026",
+      "plannedBudget": 1500000,
+      "realizedBudget": 0,
+      "target": "15 pelaku UMKM binaan memiliki NIB & sertifikasi halal",
+      "progress": 15,
+      "status": "belum_mulai"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv-1",
+      "name": "Tenda Lipat Portable 3x3 Meter",
+      "code": "INV-TND-01",
+      "quantity": 2,
+      "condition": "Baik",
+      "location": "Gudang Balai RW 02",
+      "procurementDate": "2026-10-12",
+      "personInCharge": "Fajar Nugroho",
+      "loans": [
+        {
+          "id": "loan-1",
+          "borrowerName": "Pak RT 01 (Pak Suryadi)",
+          "borrowerContact": "0812-3456-7890",
+          "borrowDate": "2026-10-25",
+          "dueDate": "2026-10-28",
+          "quantity": 1,
+          "status": "dipinjam",
+          "notes": "Digunakan untuk posyandu balita RW 01"
+        }
+      ]
+    },
+    {
+      "id": "inv-2",
+      "name": "Sound System Portable Wireless + 2 Mic",
+      "code": "INV-SND-01",
+      "quantity": 1,
+      "condition": "Baik",
+      "location": "Sekretariat Karang Taruna (Rumah Ketua)",
+      "procurementDate": "2025-08-17",
+      "personInCharge": "Rizky Maulana",
+      "loans": []
+    },
+    {
+      "id": "inv-3",
+      "name": "Kursi Lipat Chitose Besi",
+      "code": "INV-KRS-01",
+      "quantity": 40,
+      "condition": "Baik",
+      "location": "Gudang Balai Desa",
+      "procurementDate": "2024-03-10",
+      "personInCharge": "Bagus Wicaksono",
+      "loans": [
+        {
+          "id": "loan-2",
+          "borrowerName": "Remaja Masjid Nurul Huda",
+          "borrowerContact": "0857-1122-3344",
+          "borrowDate": "2026-10-20",
+          "dueDate": "2026-10-22",
+          "returnDate": "2026-10-22",
+          "quantity": 20,
+          "status": "kembali",
+          "notes": "Dikembalikan lengkap tanpa cacat"
+        }
+      ]
+    },
+    {
+      "id": "inv-4",
+      "name": "Proyektor Epson EB-X500 & Layar Tripod 70\"",
+      "code": "INV-PRJ-01",
+      "quantity": 1,
+      "condition": "Baik",
+      "location": "Sekretariat Karang Taruna",
+      "procurementDate": "2025-11-20",
+      "personInCharge": "Rian Pratama",
+      "loans": []
+    },
+    {
+      "id": "inv-5",
+      "name": "Mesin Potong Rumput Gendong",
+      "code": "INV-ALM-01",
+      "quantity": 1,
+      "condition": "Rusak Ringan",
+      "location": "Pos Ronda RW 01",
+      "procurementDate": "2024-06-05",
+      "personInCharge": "Fajar Nugroho",
+      "loans": []
+    }
+  ],
+  "umkm": [
+    {
+      "id": "umkm-1",
+      "name": "Keripik Pisang Aneka Rasa \"Makmur Desa\"",
+      "category": "Kuliner",
+      "description": "Olahan pisang kepok lokal desa dengan varian cokelat lumer, tiramisu, balado pedas manis, dan original gurih. Diproduksi oleh kelompok pemuda RT 01.",
+      "location": "Dusun Krajan RT 01 RW 01",
+      "ownerName": "Dewi Lestari & Ibu-Ibu Muda RT 01",
+      "allowsPublicContact": true,
+      "publicContact": "0813-1122-3344",
+      "whatsapp": "https://wa.me/6281311223344",
+      "instagram": "@keripik.makmurdesa",
+      "productHighlights": [
+        "Bahan 100% Petani Desa",
+        "Sudah P-IRT",
+        "Kemasan Foil Kedap Udara"
+      ]
+    },
+    {
+      "id": "umkm-2",
+      "name": "Kopi Robusta Lereng Sukamaju",
+      "category": "Kuliner",
+      "description": "Biji kopi robusta petik merah hasil kebun pemuda desa. Sangrai profil medium dark cocok untuk manual brew dan es kopi susu.",
+      "location": "Dusun Telagasari RW 02",
+      "ownerName": "Bagus Wicaksono",
+      "allowsPublicContact": true,
+      "publicContact": "0858-4455-6677",
+      "whatsapp": "https://wa.me/6285844556677",
+      "instagram": "@sukamaju.coffee",
+      "productHighlights": [
+        "Single Origin Robusta",
+        "Roasting Segar Tiap Minggu",
+        "Kemasan 250gr & 1kg"
+      ]
+    },
+    {
+      "id": "umkm-3",
+      "name": "Bengkel Sablon & Konveksi Kaos Karang Taruna",
+      "category": "Fashion & Konveksi",
+      "description": "Menerima pesanan seragam kemeja organisasi, kaos panitia, jaket komunitas, dan sablon DTF/plastisol dengan harga bersahabat.",
+      "location": "Dusun Kebonromo RT 02 RW 02",
+      "ownerName": "Fajar Nugroho & Tim Sablon",
+      "allowsPublicContact": true,
+      "publicContact": "0822-7788-9900",
+      "whatsapp": "https://wa.me/6282277889900",
+      "productHighlights": [
+        "Bahan Cotton Combed 24s/30s",
+        "Bebas Konsultasi Desain",
+        "Kapasitas 500 pcs/minggu"
+      ]
+    },
+    {
+      "id": "umkm-4",
+      "name": "Anyaman Bambu & Besek Souvenir Ramah Lingkungan",
+      "category": "Kerajinan",
+      "description": "Kerajinan wadah hantaran besek bambu dan souvenir pernikahan khas perajin muda Dusun Telagasari.",
+      "location": "Dusun Telagasari RT 03 RW 02",
+      "ownerName": "Mulyadi & Kelompok Perajin",
+      "allowsPublicContact": true,
+      "publicContact": "0812-4433-2211",
+      "productHighlights": [
+        "Serat Bambu Pilihan",
+        "Pewarna Alami",
+        "Ramah Lingkungan Tanpa Plastik"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-1",
+      "title": "Proposal Peringatan Hari Sumpah Pemuda & Turnamen Bola Voli 2026",
+      "docNumber": "012/PROP/KT-SKM/X/2026",
+      "category": "Proposal",
+      "date": "2026-10-08",
+      "uploader": "Dewi Lestari (Sekretaris)",
+      "description": "Rincian konsep kegiatan, susunan panitia, dan rancangan anggaran biaya turnamen voli.",
+      "isPublic": true,
+      "fileSize": "1.4 MB",
+      "fileType": "PDF"
+    },
+    {
+      "id": "doc-2",
+      "title": "Laporan Pertanggungjawaban (LPJ) Malam Tirakatan 17 Agustus 2026",
+      "docNumber": "008/LPJ/KT-SKM/IX/2026",
+      "category": "LPJ",
+      "date": "2026-09-02",
+      "uploader": "Siti Rahma (Bendahara)",
+      "description": "Laporan keuangan dan evaluasi pelaksanaan pesta rakyat HUT Kemerdekaan RI ke-81.",
+      "isPublic": false,
+      "fileSize": "2.8 MB",
+      "fileType": "PDF"
+    },
+    {
+      "id": "doc-3",
+      "title": "Notulen Rapat Pleno Pemuda Penyusunan Program Kerja 2026/2027",
+      "docNumber": "005/NOT/KT-SKM/VII/2026",
+      "category": "Notulen Rapat",
+      "date": "2026-07-20",
+      "uploader": "Dewi Lestari (Sekretaris)",
+      "description": "Hasil kesepakatan pembagian divisi dan penentuan sasaran strategis pemuda desa.",
+      "isPublic": false,
+      "fileSize": "640 KB",
+      "fileType": "DOCX"
+    },
+    {
+      "id": "doc-4",
+      "title": "Surat Keputusan Kepala Desa tentang Penetapan Pengurus Karang Taruna",
+      "docNumber": "141/04/SK-KADES/2025",
+      "category": "SK & Regulasi",
+      "date": "2025-01-15",
+      "uploader": "Sekretariat Desa",
+      "description": "SK resmi legalitas kepengurusan Karang Taruna Masa Bakti 2025 - 2028.",
+      "isPublic": true,
+      "fileSize": "1.1 MB",
+      "fileType": "PDF"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1793114065968",
+      "timestamp": "2026-10-27T15:14:25.968Z",
+      "user": "Petugas Desa",
+      "role": "admin",
+      "action": "Hapus Data announcements",
+      "details": "ID: announcements-1793114059018 dihapus dari JSON database."
+    },
+    {
+      "id": "log-1793114059018",
+      "timestamp": "2026-10-27T15:14:19.018Z",
+      "user": "Petugas Desa",
+      "role": "pengurus",
+      "action": "Tambah Data announcements",
+      "details": "ID: announcements-1793114059018 berhasil ditambahkan ke JSON database."
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-10-26T08:30:00Z",
+      "user": "Siti Rahma",
+      "role": "bendahara",
+      "action": "Tambah Transaksi",
+      "details": "Mencatat pemasukan sponsorship turnamen sebesar Rp 2.000.000 (TRX-202610-006)."
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-10-25T14:10:00Z",
+      "user": "Fajar Nugroho",
+      "role": "pengurus",
+      "action": "Peminjaman Inventaris",
+      "details": "Mencatat pinjaman 1 unit Tenda Lipat oleh RT 01 (Pak Suryadi)."
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-10-24T10:00:00Z",
+      "user": "Rian Pratama",
+      "role": "admin",
+      "action": "Publikasi Pengumuman",
+      "details": "Memublikasikan pengumuman Turnamen Bola Voli Antar-RW 2026."
+    },
+    {
+      "id": "log-4",
+      "timestamp": "2026-10-22T09:15:00Z",
+      "user": "Dewi Lestari",
+      "role": "pengurus",
+      "action": "Pembaruan Data KK",
+      "details": "Memperbarui status verifikasi data keluarga KK-SKM-0201."
+    }
+  ]
+}

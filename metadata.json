@@ -1,0 +1,6 @@
+{
+  "name": "Ruang Muda Desa",
+  "description": "Satu Data, Satu Informasi, Bersama Membangun Desa. Pusat informasi dan administrasi digital terpadu untuk karang taruna dan pemuda desa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
